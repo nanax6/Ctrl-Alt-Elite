@@ -11,8 +11,8 @@ App movil
 - Edwin Gonzalo Chica Palacios
 
 ## Roles Sprint 1
-Desarrollador - Cristian Camilo Jimenez Santana
-Analista - Daniela Alejandra Rodríguez Sepúlveda
-Product Owner - Edwin Gonzalo Chica Palacios 
-Admin DB - Juan David Ocampo Largo
-Scrum Master - Deimer Ivan Castillo Caceres
+- Desarrollador - Cristian Camilo Jimenez Santana
+- Analista - Daniela Alejandra Rodríguez Sepúlveda
+- Product Owner - Edwin Gonzalo Chica Palacios 
+- Admin DB - Juan David Ocampo Largo
+- Scrum Master - Deimer Ivan Castillo Caceres
