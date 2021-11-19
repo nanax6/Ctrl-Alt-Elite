@@ -1,0 +1,33 @@
+[
+ {
+    "firstPOI":"Parque nacional natural Tayrona",
+    "imageFirstPOI":"",
+    "introFirstPOI":"Para quienes buscan la contemplación y el descanso, el  parque ofrece magníficas playas y el relajante panorama de un mar intensamente azul.",
+    "raitingFirstPOI":5.0
+ },
+ {
+    "firstPOI":"Parque nacional natural La Gorgona",
+    "secondPOI": "",
+    "imageSecondPOI": "",
+    "introSecondPOI": "Para quienes buscan descanzar y desconectarse de la agitada vida moderna, el parque ofrece asombrosas vistas tant en tierra como en mar",
+    "raitingSecondPOI": 4.5
+ },
+ {
+    "thirdPOI": "Parque nacional natural Los Nevados",
+    "imageThirdPOI": "",
+    "introThirdPOI": "Para quienes buscan aventura y gozen de amor por la naturaleza, el parque ofrece actividades como observación de vida silvestre, senderismo,  montañismo y más ",
+    "raitingThirdPOI": 4.0
+ },
+ {
+    "fourthPOI": "Parque Nacional Natural Amacayacu",
+    "imageFourthPOI": "",
+    "introFourthPOI": "Para quienes buscan conectarse con sus raices y con la madre tierra, el parque ofrece actividades ecoturisticas guiadas por miembros de las comunidades indigenas de de Mocagua y San Martín",
+    "raitingFourthPOI": 3.8
+ },
+ {
+    "fifthPOI": "Parque Nacional Natural Chingaza",
+    "imageFifthPOI": "",
+    "introFifthPOI": "Para quienes uscan reconstruir vínculos con la naturaleza y aprender sobre conservación, el parque permite a los visitantes un contacto contacto directo con la naturaleza brindando experiencias inolvidables",
+    "raitingFifthPOI": 3.5
+ }
+]
