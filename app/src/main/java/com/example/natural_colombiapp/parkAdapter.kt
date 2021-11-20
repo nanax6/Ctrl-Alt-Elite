@@ -6,8 +6,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 
-class parkAdapter(private val parks: ArrayList<Park>) : RecyclerView.Adapter<parkAdapter.ViewHolder>() {
+class parkAdapter(private val parks: ArrayList<ParkItem>) : RecyclerView.Adapter<parkAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view, parent, false)
@@ -27,11 +28,13 @@ class parkAdapter(private val parks: ArrayList<Park>) : RecyclerView.Adapter<par
         private var titleTextView : TextView = view.findViewById(R.id.title_textView)
         private var descTextView : TextView = view.findViewById(R.id.desc_textView)
         private var pictureImageView : ImageView = view.findViewById(R.id.picture_imageView)
+        private var ratingTextView : TextView = view.findViewById(R.id.rating_textView)
 
-        fun bind(park : Park){
+        fun bind(park : ParkItem){
             titleTextView.text = park.name
             descTextView.text = park.desc
-            // pictureImageView
+            ratingTextView.text = park.rating
+            Picasso.get().load(park.imgUrl).resize(150,80).centerCrop().into(pictureImageView)
 
         }
 
