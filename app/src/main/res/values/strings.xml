@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
+    <string name="app_name">Parque_Nacional_Natural_Amacayacu</string>
+    <string name="parque__nacional_natural__amacayacu">parque_nacional_natural_amacayacu</string>
 </resources>
