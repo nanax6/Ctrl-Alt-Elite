@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Parque_Nacional_Natural_Amacayacu</string>
     <string name="parque__nacional_natural__amacayacu">parque_nacional_natural_amacayacu</string>
+    <string name="parque_nacional_natural_amacayacu">Parque Nacional Natural Amacayacu</string>
+    <string name="descripcion_parque_nacional_amacayacu">El Parque Nacional Natural Amacayacu fue creado en el año 1970 con el fin de reservar, preservar y mantener bancos biológicos, áreas sobresalientes del patrimonio nacional, la fauna y la flora. Este territorio representa cerca del 40% de la superficie total del Trapecio Amazónico y presenta una forma de embudo en su sector sur. Presenta un ecosistema de selva húmeda tropical cálida y bosques inundables. Tiene una temperatura promedio de 27°C.</string>
 </resources>

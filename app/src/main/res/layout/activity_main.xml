@@ -8,10 +8,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
+        android:layout_marginTop="8dp"
+        android:background="#54CF59"
+        android:text="@string/parque_nacional_natural_amacayacu"
         android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
@@ -20,5 +24,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.001" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400dp"
+        android:layout_height="393dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:srcCompat="@drawable/Captura1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="395dp"
+        android:layout_height="246dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="El Parque Nacional Natural Amacayacu (PNN Amacayacu) fue creado con el objeto de reservar áreas sobresalientes y representativas del patrimonio natural nacional, conservar bancos genéticos, investigar los valores de los recursos naturales, perpetuar muestras representativas de comunidades bióticas al igual que especies de fauna silvestre, mantener la diversidad biológica y el equilibrio ecológico mediante la conservación y protección de áreas naturales. Este territorio representa cerca del 40% de la superficie total del Trapecio Amazónico y presenta una forma de embudo en su sector sur. Presenta un ecosistema de selva húmeda tropical cálida y bosques inundables. Además de contar con una fauna y flora exuberantes, el área del Parque se encuentra traslapada (compartida) en un 18% con territorios indígenas ancestrales de la etnia Tikuna mayoritariamente, quienes hoy buscan un equilibrio entre las formas tradicionales y las dinámicas contemporáneas de la vida moderna. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
