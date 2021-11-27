@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Natural_Colombiapp.iml" filepath="$PROJECT_DIR$/.idea/modules/Natural_Colombiapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Natural_Colombiapp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Natural_Colombiapp.app.iml" />
+    </modules>
+  </component>
+</project>
