@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/Natural_ColombiApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/app/src/main/res/layout/activity_tayrona.xml" value="0.22" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/app/src/main/res/layout/card_view_lista_parques.xml" value="0.33" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/app/src/main/res/layout/imagenes_sliderview.xml" value="0.25" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/parquescolombia/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/parquescolombia/src/main/res/layout/card_view_lista_parques.xml" value="0.25" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/parquescolombia/src/main/res/layout/fragment_detail.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/parquescolombia/src/main/res/layout/fragment_list.xml" value="0.33" />
       </map>
     </option>
   </component>

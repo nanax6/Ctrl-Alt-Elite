@@ -1,13 +1,19 @@
 <resources>
-
-    <string name="titulo_app">Natural ColombiApp</string>
-    <string name="titulo_parque">Parque nacional natural Tayrona</string>
+    <string name="app_name">Natural ColombiApp</string>
+    <string name="chiribiquete">Parque Natural\n Nacional Chiribiquete</string>
+    <string name="chiribiquete_descripcion">El Parque Nacional de Chiribiquete destaca
+        por su extensión de casi 3 millones de hectáreas, pero también por su rica biodiversidad.
+        El parque posee la fauna representativa en el área amazónica, tales como el jaguar,
+        el tapir y el águila arpía, entre otros.</string>
+    <string name="puntuacion">Calificación: </string>
+    <string name="tituloApp">Natural ColombiApp</string>
+    <string name="tayrona">Parque Nacional Natural Tayrona</string>
     <string name="ubicacion">Ubicación:</string>
     <string name="temperatura">Temperatura:</string>
-    <string name="descripcion">Descripción:</string>
-    <string name="ubicacion_tayrona">Sierra Nevada de Santa Marta</string>
-    <string name="temp_tayrona">Entre -12 y 38  °C</string>
-    <string name="descr_tayrona">Las estribaciones de la Sierra Nevada de Santa Marta,
+    <string name="descripcion">Descripción del lugar: </string>
+    <string name="sierra_nevada">Sierra Nevada de Santa Marta</string>
+    <string name="temperatura_valor">Entre 12 y 38 °C</string>
+    <string name="descripcion_texto">Las estribaciones de la Sierra Nevada de Santa Marta,
         la montaña costera más alta del mundo, se hunden en el mar como los dedos de una
         mano gigantesca entre los que se forman bahías y ensenadas de belleza singular:
         Chengue, Gayraca, Cinto, Neguanje, Concha, Guachaquita, con sus playas de arenas blancas
@@ -18,6 +24,6 @@
         y el relajante panorama de un mar intensamente azul.
         Quienes se sienten atraídos por actividades más emocionantes podrán disfrutar de caminatas,
         careteo y buceo autónomo.</string>
-    <string name="sitios_de_interes">Sitios: de Interés:</string>
-    <string name="sitios_tayrona">Museo Arqueológico de Chairama, Playa del Muerto, Sector Arrecifes, La Piscina, Cabo San Juan de Guía, Pueblito Chairama, Playa Boca de Saco, Ciudad Perdida.</string>
+    <string name="sitios_interes">Sitios de Interés:</string>
+    <string name="sitios_texto">Museo Arqueológico de Chairama, Playa del Muerto, Sector Arrecifes, La Piscina, Cabo San Juan de Guía, Pueblito Chairama, Playa Boca de Saco, Ciudad Perdida.</string>
 </resources>
