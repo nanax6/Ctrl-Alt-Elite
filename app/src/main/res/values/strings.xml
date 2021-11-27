@@ -21,5 +21,22 @@
     <string name="sitios_de_interes">Sitios: de Interés:</string>
     <string name="sitios_tayrona">Museo Arqueológico de Chairama, Playa del Muerto, Sector Arrecifes, La Piscina, Cabo San Juan de Guía, Pueblito Chairama, Playa Boca de Saco, Ciudad Perdida.</string>
     <string name="text_placeholder">text</string>
-    <string name="app_name">Park List</string>
+    <string name="app_name">AppName</string>
+    
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    <!--    PreferenceFragment Strings-->
+    <string name="settings">Settings</string>
+    <string name="pref_useNotifications">useNotifications</string>
+    <string name="pref_useNotifications_default">false</string>
+    <string name="useNotifications_title">Use Notifications</string>
+    <string name="useNotifications_desc">Enable notifications on this app</string>
+
+    <string name="pref_useSounds">useSounds</string>
+    <string name="pref_useSounds_default">false</string>
+    <string name="useSounds_title">Use Sounds</string>
+    <string name="useSounds_desc">Enable sounds on this app</string>
+
 </resources>
