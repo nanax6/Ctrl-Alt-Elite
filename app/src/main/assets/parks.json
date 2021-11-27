@@ -3,30 +3,66 @@
     "name":"Parque Nacional Natural Tayrona",
     "imgUrl":"https://www.parquetayrona.com/wp-content/uploads/2018/12/DSC6345-copia-1800x828.jpg",
     "desc":"Para quienes buscan la contemplación y el descanso, el  parque ofrece magníficas playas y el relajante panorama de un mar intensamente azul.",
-    "rating":"5.0"
+    "rating":"5.0",
+    "descDetail":"Las estribaciones de la Sierra Nevada de Santa Marta, la montaña costera más alta del mundo, se hunden en el mar como los dedos de una mano gigantesca entre los que se forman bahías y ensenadas de belleza singular: Chengue, Gayraca, Cinto, Neguanje, Concha, Guachaquita, con sus playas de arenas blancas delimitadas por, manglares, matorrales o bosques, y bañadas todas por las aguas cristalinas del mar Caribe, hacen parte de los muchos atractivos que ofrece el Parque Nacional Natural Tayrona.\nPara quienes buscan la contemplación y el descanso, el Parque ofrece magníficas playas y el relajante panorama de un mar intensamente azul. Quienes se sienten atraídos por actividades más emocionantes podrán disfrutar de caminatas, careteo y buceo autónomo.",
+    "imgUrlDetail":"https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/06/David_Paez.jpg",
+    "loc": "Sierra Nevada de Santa Marta",
+    "temp": "Entre 12 y 18° C",
+    "relSites": "Museo Arqueológico de Chairama, Playa del Muerto, Sector Arrecifes, La Piscina, Cabo San Juan de Guía, Pueblito Chairama, Playa Boca de Saco, Ciudad Perdida."
   },
   {
     "name":"Parque Nacional Natural La Gorgona",
     "imgUrl": "https://www.las2orillas.co/wp-content/uploads/2017/05/GORGONA-2-1.jpg",
-    "desc": "Para quienes buscan descanzar y desconectarse de la agitada vida moderna, el parque ofrece asombrosas vistas tant en tierra como en mar",
-    "rating":"4.5"
+    "desc": "Para quienes buscan descansar y desconectarse de la agitada vida moderna, el parque ofrece asombrosas vistas tant en tierra como en mar",
+    "rating":"4.5",
+    "descDetail":"El Parque Nacional Natural Gorgona es un pequeño paraíso de diversidad que salta a la vista desde alta mar cuando la frondosa y exuberante selva bosque muy húmedo tropical desciende desde las pequeñas cumbres nubladas hasta el azul intenso de las aguas misteriosas del océano Pacífico. El Parque está conformado por dos islas, Gorgona y Gorgonilla, que recibieron el nombre de Francisco Pizarro en 1527; como sus hombres fueron mordidos por muchas serpientes, las comparó con los monstruos femeninos de la mitología griega, una de ellas llamada Gorgona.\n Ha sido denominada ‘Isla Ciencia’ por la cantidad de información que ha dado a los investigadores para entender los ecosistemas y para el manejo efectivo del área protegida. ",
+    "imgUrlDetail":"https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/07/s01-1.jpg",
+    "loc": "Guapi - Departamento del Cauca",
+    "temp": "26° C - Promedio",
+    "relSites": "Islote el viudo, isla Gorgonilla, islote El horno"
   },
   {
     "name": "Parque Nacional Natural Los Nevados",
     "imgUrl": "https://cdn.colombia.com/sdi/2014/01/04/parque-nacional-natural-los-nevados-autentica-emocion-natural-853808.jpg",
     "desc": "Para quienes buscan aventura y gocen de amor por la naturaleza, el parque ofrece actividades como observación de vida silvestre, senderismo,  montañismo y más ",
-    "rating": "4.0"
+    "rating": "4.0",
+    "descDetail":"El Parque Nacional Natural Los Nevados se localiza en el corazón del Eje Cafetero, en el complejo volcánico norte conformado por el  volcán Nevado del Ruíz, cráteres La Olleta y La Piraña, el volcán Nevado de Santa Isabel, el volcán Nevado del Tolima, y los Paramillos del Cisne, Santa Rosa y Quindío.\n Las fuentes hídricas que nacen en el Área Protegida, aportan al desarrollo productivo y humano del centro del País. El complejo  de humedales del Otún (Laguna del Otún), localizado en el Parque, fue declarado humedal de importancia internacional por la Convención RAMSAR",
+    "imgUrlDetail":"https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/07/El_Cisne_-_Mario_H_Franco.jpg",
+    "loc": "Caldas, Risaralda, Quindío y Tolima.",
+    "temp": "Entre -3° y 14° C",
+    "relSites": "Nevado del Ruíz, Nevado del Tolima, Nevado de Santa Isabel, Laguna del otún, Laguna negra"
   },
   {
     "name": "Parque Nacional Natural Amacayacu",
     "imgUrl": "https://cdn.baquianos.com/img/blog/2019/23/-iz0x360.jpg",
     "desc": "Para quienes buscan conectarse con sus raices y con la madre tierra, el parque ofrece actividades ecoturisticas guiadas por miembros de las comunidades indigenas de de Mocagua y San Martín",
-    "rating": "3.8"
+    "rating": "3.8",
+    "descDetail":"Es el hábitat del tití leoncito, el primate más pequeño de América, de una tortuga que mimetiza hojas secas bajo el agua, de mariposas enormes de azul plateado, de la flor de loto más grande del mundo y mucho más.\n Además de contar con una fauna y flora exuberantes, los grupos humanos presentes en el área del Parque y su zona de influencia en su mayoría pertenecen a la Etnia Tikuna, y en menor número, indígenas Yaguas y Cocamas y, en la actualidad, familias mestizas.",
+    "imgUrlDetail":"https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2018/04/s09.jpg",
+    "loc": "Amazonas, Trapecio Amazónico",
+    "temp": "27° C",
+    "relSites": "Resguardo Indígena de Mocagua, río Amacayacu y quebrada Matamatá"
   },
   {
     "name": "Parque Nacional Natural Chingaza",
     "imgUrl": "https://cdn.colombia.com/sdi/2014/03/13/parque-nacional-natural-chingaza-850162.jpg",
     "desc": "Para quienes buscan reconstruir vínculos con la naturaleza y aprender sobre conservación, el parque permite a los visitantes un contacto contacto directo con la naturaleza brindando experiencias inolvidables",
-    "rating": "3.5"
+    "rating": "3.5",
+    "descDetail":"",
+    "imgUrlDetail":"https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/08/Laguna_del_medio_AndresMillan.jpg",
+    "loc": "",
+    "temp": "",
+    "relSites": ""
+  },
+  {
+    "name": "Parque Nacional Natural Sumapaz",
+    "imgUrl": "https://res.cloudinary.com/dlatytwec/image/upload/v1637516376/sumapaz_mvxefl.jpg",
+    "desc": "Es uno de los sitios de alta montaña más rico en géneros y especies de flora colombiana, posee un gran número de organismos endémicos que hacen del Parque un reservorio importante de diversidad biológica, ecológica y genética.",
+    "rating": "4.5",
+    "descDetail":"El Parque Nacional Natural Sumapaz es uno de los sitios de alta montaña más rico en géneros y especies de flora colombiana, ya que posee un gran número de organismos, muchos de ellos endémicos que hacen del Parque un reservorio importante de diversidad biológica, ecológica y genética.\n En el Parque Nacional Natural Sumapaz se encuentran representados dos de los principales ecosistemas de las montañas tropicales: el páramo y los bosques andinos.",
+    "imgUrlDetail":"https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/07/Sandra_Urrea_s03.jpg",
+    "loc": "Meta, Huila, Cundinamarca, Bogotá",
+    "temp": "Entre 0 y 20 °C",
+    "relSites": ""
   }
 ]

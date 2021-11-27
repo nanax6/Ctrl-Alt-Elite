@@ -4,14 +4,21 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/Natural_ColombiApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/font/almendra_bold.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/font/almendra_italic.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/activity_detail.xml" value="0.1" />
         <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/activity_main.xml" value="0.209375" />
         <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/activity_recycler.xml" value="0.209375" />
         <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/activity_rv_main.xml" value="0.25" />
         <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/card_view.xml" value="0.33" />
+        <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/content_detail.xml" value="0.209375" />
         <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/fragment_detail.xml" value="0.209375" />
         <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/fragment_main.xml" value="0.25" />
         <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/fragment_recycler.xml" value="0.209375" />
         <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/fragment_settings.xml" value="0.209375" />
+        <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/xml/preferences_ui.xml" value="0.33" />
       </map>
     </option>

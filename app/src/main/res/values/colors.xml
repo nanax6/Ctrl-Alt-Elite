@@ -10,4 +10,19 @@
     <color name="dark_orange">#d74401</color>
     <color name="verde_naturaleza">#568632</color>
     <color name="blanco_claro">#f1f1f1</color>
+    <color name="autumn">#763626</color>
+    <color name="shadow">#2a3132</color>
+    <color name="stone">#336b87</color>
+    <color name="mist">#90afc5</color>
+    <color name="meadow">#598234</color>
+    <color name="moss">#aebd38</color>
+    <color name="waterfall">#68829e</color>
+    <color name="thunder">#505160</color>
+    <color name="seafoam">#c4dfe6</color>
+    <color name="indigo">#2d4262</color>
+    <color name="ruby_red">#fa4032</color>
+    <color name="forest">#1e434c</color>
+    <color name="peacock_blue">#1e656d</color>
+    <color name="granite">#b7b8b6</color>
+    <color name="overcast">#f1f1f2</color>
 </resources>

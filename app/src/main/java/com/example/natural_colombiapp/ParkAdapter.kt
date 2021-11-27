@@ -8,7 +8,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 
-class parkAdapter(private val parks: ArrayList<ParkItem>) : RecyclerView.Adapter<parkAdapter.ViewHolder>() {
+class ParkAdapter(
+    private val parks: ArrayList<ParkItem>,
+    private val onItemClicked: (ParkItem) -> Unit) : RecyclerView.Adapter<ParkAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view, parent, false)
@@ -17,6 +19,7 @@ class parkAdapter(private val parks: ArrayList<ParkItem>) : RecyclerView.Adapter
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val park = parks[position]
+        holder.itemView.setOnClickListener{ onItemClicked(parks[position]) }
         holder.bind(park)
     }
 
