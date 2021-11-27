@@ -11,7 +11,11 @@
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/action_mainFragment_to_prefsFragment"
-            app:destination="@id/prefsFragment" />
+            app:destination="@id/prefsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
         <action
             android:id="@+id/action_mainFragment_to_recyclerViewActivity"
             app:destination="@id/recyclerViewActivity" />
