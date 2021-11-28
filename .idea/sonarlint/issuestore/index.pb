@@ -1,0 +1,27 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+r
+Bapp/src/main/java/com/example/natural_colombiapp/DetailActivity.kt,0\b\0bdbc41d726af7fe2ab6376a8569acf8f85ec10d
+r
+Bapp/src/main/java/com/example/natural_colombiapp/DetailFragment.kt,4\a\4a6062c7dda70a69d2d6649d3a14368fb0cc6171
+p
+@app/src/main/java/com/example/natural_colombiapp/MainActivity.kt,2\b\2b35ded59037966457848126792c9b6eb803efb9
+p
+@app/src/main/java/com/example/natural_colombiapp/MainFragment.kt,e\d\edf85f48e3d3fae75cde902addb3a321fd741b54
+h
+8app/src/main/java/com/example/natural_colombiapp/Park.kt,c\3\c33b98829003f0989ed0efab80b9b65ed05929b1
+o
+?app/src/main/java/com/example/natural_colombiapp/ParkAdapter.kt,a\b\abc2641981b5f72483257ca6df751fc9b27cf084
+l
+<app/src/main/java/com/example/natural_colombiapp/ParkItem.kt,c\c\cca56973d2cf173eea7865427848d682b58237f3
+q
+Aapp/src/main/java/com/example/natural_colombiapp/PrefsFragment.kt,4\7\474479deb35f24daf329c2a26aecaae1ea26738a
+x
+Happ/src/main/java/com/example/natural_colombiapp/RecyclerViewActivity.kt,5\0\507e1f53eff1aa1fa2376babca5feec8a32a4b56
+‚
+Rapp/src/androidTest/java/com/example/natural_colombiapp/ExampleInstrumentedTest.kt,f\a\fab4914c7e2b128be0456b28b069624b532ce6d9
+s
+Capp/src/test/java/com/example/natural_colombiapp/ExampleUnitTest.kt,9\b\9bc17a4ed94371075566de4b38fc45d5316b4f90
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
