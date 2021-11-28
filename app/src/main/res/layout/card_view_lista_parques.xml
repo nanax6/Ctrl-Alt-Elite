@@ -62,6 +62,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="@string/chiribiquete_descripcion"
                 android:textAlignment="center"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/foto_parque_imageView"

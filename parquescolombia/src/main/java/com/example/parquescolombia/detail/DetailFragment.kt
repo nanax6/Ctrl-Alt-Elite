@@ -1,5 +1,4 @@
 package com.example.parquescolombia.detail
-
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -21,8 +20,5 @@ class DetailFragment : Fragment() {
 
         return detailBinding.root
     }
-
-
-
 
 }

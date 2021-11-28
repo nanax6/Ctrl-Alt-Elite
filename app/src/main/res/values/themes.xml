@@ -42,7 +42,8 @@
     <style name="Texto_descripcion">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/meadow</item>
-        <item name="android:fontFamily">@font/almendra_italic</item>
+        <item name="android:fontFamily">@font/averia_libre_bold_italic</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
     </style>
 
@@ -63,7 +64,7 @@
     <style name="Texto_subtitulo_valor">
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/peacock_blue</item>
-        <item name="android:fontFamily">@font/almendra_bold</item>
+        <item name="android:fontFamily">@font/averia_libre</item>
     </style>
 
 </resources>

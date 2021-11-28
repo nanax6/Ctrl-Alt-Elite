@@ -17,5 +17,11 @@
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.parquescolombia.detail.DetailFragment"
-        android:label="DetailFragment" />
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail">
+
+        <argument
+            android:name="parque"
+            app:argType="com.example.parquescolombia.model.ParquesItem" />
+    </fragment>
 </navigation>

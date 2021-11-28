@@ -6,6 +6,13 @@
         <item>@font/almendra_bold</item>
         <item>@font/almendra_bold_italic</item>
         <item>@font/almendra_italic</item>
+        <item>@font/arapey</item>
+        <item>@font/averia_libre</item>
+        <item>@font/averia_libre_bold</item>
+        <item>@font/averia_libre_bold_italic</item>
+        <item>@font/averia_libre_italic</item>
+        <item>@font/averia_libre_light</item>
+        <item>@font/averia_libre_light_italic</item>
         <item>@font/berkshire_swash</item>
     </array>
 </resources>

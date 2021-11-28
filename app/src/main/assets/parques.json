@@ -61,13 +61,13 @@
 
     {        
         "parqueNacional" : "Parque Nacional Chingaza",
-        "descripcionDetail" : "",
+        "descripcionDetail" : "El Parque Nacional Natural Chingaza, es un tesoro natural y cultural del centro de Colombia, la magia de sus montañas guarda secretos y pensamientos heredados de  los Muiscas y los Guayupes, pueblos indígenas que resguardaban este territorio, así como de comunidades campesinas que habitaron la región hace menos de 40 años. En la actualidad es refugio de fauna y flora de los Andes que revelan al visitante el secreto de la vida.",
         "descripcion" : "Para quienes buscan reconstruir vínculos con la naturaleza y aprender sobre conservación, el parque permite a los visitantes un contacto contacto directo con la naturaleza brindando experiencias inolvidables",
         "puntuacion" : 3.5,
         "foto" : "https://res.cloudinary.com/dlatytwec/image/upload/v1637516376/chingaza_wj9gru.jpg",
         "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/08/Laguna_del_medio_AndresMillan.jpg",
-        "ubicacion" : "",
-        "temperatura" : "",
-        "sitios" : ""
+        "ubicacion" : "Departamentos de Cundinamarca y Meta.",
+        "temperatura" : "Entre -5 y 21 °C",
+        "sitios" : "Suasie, Laguna de Chingaza, Lagunas de Siecha, Laguna Seca, Sendero El Rajadero, Laguna del Medio"
     }
 ]
