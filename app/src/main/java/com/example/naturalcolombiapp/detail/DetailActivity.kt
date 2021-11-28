@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.naturalcolombiapp.databinding.ActivityDetailBinding
 import com.example.naturalcolombiapp.model.ParquesItem
 import com.squareup.picasso.Picasso
-import java.io.Serializable
 
 class DetailActivity : AppCompatActivity() {
 
@@ -17,6 +16,7 @@ class DetailActivity : AppCompatActivity() {
         setContentView(detailBinding.root)
 
         val parques: ParquesItem = intent.extras?.getSerializable("parques") as ParquesItem
+
         with(detailBinding) {
             nombreParqueTextview.text = parques.parqueNacional
             Picasso.get().load(parques.fotoDetail).into(parqueImageView)
@@ -24,7 +24,6 @@ class DetailActivity : AppCompatActivity() {
             ubicacionContenidoTextView.text = parques.ubicacion
             temperaturaContenidoTextView.text = parques.temperatura
             sitiosContenidoTextView.text = parques.sitios
-
         }
 
     }

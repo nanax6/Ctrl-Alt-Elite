@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.parquescolombia.databinding.FragmentListBinding
 import com.example.parquescolombia.model.Parques
@@ -40,7 +41,7 @@ class ListFragment : Fragment() {
     }
 
     private fun onMainActivityClicked(parques: ParquesItem) {
-
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(parque = parques))
 
     }
 
