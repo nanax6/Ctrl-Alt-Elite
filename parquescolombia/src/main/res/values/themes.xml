@@ -66,4 +66,13 @@
         <item name="android:textColor">@color/peacock_blue</item>
         <item name="android:fontFamily">@font/averia_libre</item>
     </style>
+
+    <style name="Theme.NaturalColombiApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NaturalColombiApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NaturalColombiApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
