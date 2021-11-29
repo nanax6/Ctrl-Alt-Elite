@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.example.parquescolombia.R
 import com.example.parquescolombia.databinding.FragmentDetailBinding
+import com.example.parquescolombia.main.MainActivity
 import com.squareup.picasso.Picasso
 
 
@@ -14,6 +15,11 @@ class DetailFragment : Fragment() {
 
     private lateinit var detailBinding: FragmentDetailBinding
     private val args: DetailFragmentArgs by navArgs()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        (activity as MainActivity?)?.mostrarIcono()
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

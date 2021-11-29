@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.parquescolombia.databinding.FragmentListBinding
+import com.example.parquescolombia.main.MainActivity
 import com.example.parquescolombia.model.Parques
 import com.example.parquescolombia.model.ParquesItem
 import com.google.gson.Gson
@@ -20,6 +21,7 @@ class ListFragment : Fragment() {
     private lateinit var parquesAdapter: ParquesAdapter
     private lateinit var listaParques: ArrayList<ParquesItem>
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -30,6 +32,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity?)?.ocultarIcono()
         listaParques = cargaListaJson ()
         parquesAdapter = ParquesAdapter(listaParques, onItemClicked = { onMainActivityClicked (it) })
 
