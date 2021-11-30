@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Natural ColombiApp</string>
+    <string name="chiribiquete">Nombre del Parque Nacional</string>
+    <string name="chiribiquete_descripcion">Este espacio es usado para la descripcion que se muestra
+        en el cardView.</string>
+    <string name="puntuacion">Calificación: </string>
+    <string name="tituloApp">Natural ColombiApp</string>
+    <string name="tayrona">Nombre del parque natural</string>
+    <string name="ubicacion">Ubicación:</string>
+    <string name="temperatura">Temperatura:</string>
+    <string name="descripcion">Descripción del lugar: </string>
+    <string name="sierra_nevada">Lugar donde se encuentra el parque</string>
+    <string name="temperatura_valor">Temperatura del PNN</string>
+    <string name="descripcion_texto">En este espacio se hace la descripcion mas extensa
+    y que va en la actividad de detalle</string>
+    <string name="sitios_interes">Sitios de Interés:</string>
+    <string name="sitios_texto">Sitios de interés que se pueden encontrar en los diferentes PNN</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Mensajes</string>
+    <string name="sync_header">Notificaciones</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Natural ColombiApp</string>
+    <string name="nav_header_subtitle">Grupo Ctrl - Alt - Elite</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Configuración">Configuración</string>
+
+    <!-- Checkbox Preferences -->
+
+
+</resources>
