@@ -3,10 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/Natural_ColombiApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/activity_main.xml" value="0.209375" />
-        <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/activity_rv_main.xml" value="0.25" />
-        <entry key="..\:/Users/deimerin/Desktop/dev4/Ctrl-Alt-Elite/app/src/main/res/layout/card_view.xml" value="0.33" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.20260416666666667" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/drawable/ic_menu_camera.xml" value="0.20260416666666667" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/drawable/ic_menu_gallery.xml" value="0.20260416666666667" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/drawable/ic_menu_slideshow.xml" value="0.20260416666666667" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/drawable/ic_notifications_active.xml" value="0.20260416666666667" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/drawable/side_nav_bar.xml" value="0.20260416666666667" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/layout/activity_drawer.xml" value="0.25" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/layout/app_bar_drawer.xml" value="0.25" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/layout/content_drawer.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/layout/fragment_detail.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/layout/fragment_gallery.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/layout/fragment_home.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/layout/fragment_list.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/layout/nav_header_drawer.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/menu/activity_main_drawer.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/menu/drawer.xml" value="0.33" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/menu/overflow.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/Ctrl-Alt-Elite/parquescolombia/src/main/res/xml/root_preferences.xml" value="0.1" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/app/src/main/res/layout/activity_tayrona.xml" value="0.22" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/app/src/main/res/layout/card_view_lista_parques.xml" value="0.33" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/app/src/main/res/layout/imagenes_sliderview.xml" value="0.25" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/parquescolombia/src/main/res/font/arapey.xml" value="0.21666666666666667" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/parquescolombia/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/parquescolombia/src/main/res/layout/card_view_lista_parques.xml" value="0.25" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/parquescolombia/src/main/res/layout/fragment_detail.xml" value="0.18645833333333334" />
+        <entry key="..\:/PROGRAMACION/CICLO 4/PROYECTO/NaturalColombiApp/parquescolombia/src/main/res/layout/fragment_list.xml" value="0.33" />
       </map>
     </option>
   </component>

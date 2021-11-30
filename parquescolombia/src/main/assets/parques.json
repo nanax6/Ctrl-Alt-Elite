@@ -1,0 +1,73 @@
+[
+    {        
+        "parqueNacional" : "Parque Nacional Natural Tayrona",
+        "descripcionDetail" : "Las estribaciones de la Sierra Nevada de Santa Marta, la montaña costera más alta del mundo, se hunden en el mar como los dedos de una mano gigantesca entre los que se forman bahías y ensenadas de belleza singular: Chengue, Gayraca, Cinto, Neguanje, Concha, Guachaquita, con sus playas de arenas blancas delimitadas por, manglares, matorrales o bosques, y bañadas todas por las aguas cristalinas del mar Caribe, hacen parte de los muchos atractivos que ofrece el Parque Nacional Natural Tayrona.\nPara quienes buscan la contemplación y el descanso, el Parque ofrece magníficas playas y el relajante panorama de un mar intensamente azul. Quienes se sienten atraídos por actividades más emocionantes podrán disfrutar de caminatas, careteo y buceo autónomo.",
+        "descripcion" : "Para quienes buscan la contemplación y el descanso, el  parque ofrece magníficas playas y el relajante panorama de un mar intensamente azul.",
+        "puntuacion" : 5.0,
+        "foto" : "https://res.cloudinary.com/dlatytwec/image/upload/v1637516376/tayrona_zdnoqw.jpg",
+        "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/06/David_Paez.jpg",
+        "ubicacion" : "Sierra Nevada de Santa Marta",
+        "temperatura" : "Entre 12 y 18° C",
+        "sitios" : "Museo Arqueológico de Chairama, Playa del Muerto, Sector Arrecifes, La Piscina, Cabo San Juan de Guía, Pueblito Chairama, Playa Boca de Saco, Ciudad Perdida."
+    },
+
+    {        
+        "parqueNacional" : "Parque Nacional Natural La Gorgona",
+        "descripcionDetail" : "El Parque Nacional Natural Gorgona es un pequeño paraíso de diversidad que salta a la vista desde alta mar cuando la frondosa y exuberante selva bosque muy húmedo tropical desciende desde las pequeñas cumbres nubladas hasta el azul intenso de las aguas misteriosas del océano Pacífico. El Parque está conformado por dos islas, Gorgona y Gorgonilla, que recibieron el nombre de Francisco Pizarro en 1527; como sus hombres fueron mordidos por muchas serpientes, las comparó con los monstruos femeninos de la mitología griega, una de ellas llamada Gorgona.\n Ha sido denominada ‘Isla Ciencia’ por la cantidad de información que ha dado a los investigadores para entender los ecosistemas y para el manejo efectivo del área protegida. ",
+        "descripcion" : "Para quienes buscan descansar y desconectarse de la agitada vida moderna, el parque ofrece asombrosas vistas tant en tierra como en mar",
+        "puntuacion" : 4.5,
+        "foto" : "https://res.cloudinary.com/dlatytwec/image/upload/v1637516376/gorgona_rba9yh.jpg",
+        "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/07/s01-1.jpg",
+        "ubicacion" : "Guapi - Departamento del Cauca",
+        "temperatura" : "26° C - Promedio",
+        "sitios" : "Islote el viudo, isla Gorgonilla, islote El horno"
+    },
+
+    {        
+        "parqueNacional" : "Parque Nacional Natural Los Nevados",
+        "descripcionDetail" : "El Parque Nacional Natural Los Nevados se localiza en el corazón del Eje Cafetero, en el complejo volcánico norte conformado por el  volcán Nevado del Ruíz, cráteres La Olleta y La Piraña, el volcán Nevado de Santa Isabel, el volcán Nevado del Tolima, y los Paramillos del Cisne, Santa Rosa y Quindío.\n Las fuentes hídricas que nacen en el Área Protegida, aportan al desarrollo productivo y humano del centro del País. El complejo  de humedales del Otún (Laguna del Otún), localizado en el Parque, fue declarado humedal de importancia internacional por la Convención RAMSAR",
+        "descripcion" : "Para quienes buscan aventura y gocen de amor por la naturaleza, el parque ofrece actividades como observación de vida silvestre, senderismo,  montañismo y más.",
+        "puntuacion" : 4.0,
+        "foto" : "https://res.cloudinary.com/dlatytwec/image/upload/v1637516376/nevados_ocy35j.jpg",
+        "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/07/El_Cisne_-_Mario_H_Franco.jpg",
+        "ubicacion" : "Caldas, Risaralda, Quindío y Tolima.",
+        "temperatura" : "Entre -3° y 14° C",
+        "sitios" : "Nevado del Ruíz, Nevado del Tolima, Nevado de Santa Isabel, Laguna del otún, Laguna negra"
+    },
+
+    {        
+        "parqueNacional" : "Parque Nacional Natural Amacayacu",
+        "descripcionDetail" : "Es el hábitat del tití leoncito, el primate más pequeño de América, de una tortuga que mimetiza hojas secas bajo el agua, de mariposas enormes de azul plateado, de la flor de loto más grande del mundo y mucho más.\n Además de contar con una fauna y flora exuberantes, los grupos humanos presentes en el área del Parque y su zona de influencia en su mayoría pertenecen a la Etnia Tikuna, y en menor número, indígenas Yaguas y Cocamas y, en la actualidad, familias mestizas.",
+        "descripcion" : "Para quienes buscan conectarse con sus raices y con la madre tierra, el parque ofrece actividades ecoturisticas guiadas por miembros de las comunidades indigenas de de Mocagua y San Martín.",
+        "puntuacion" : 3.8,
+        "foto" : "https://res.cloudinary.com/dlatytwec/image/upload/v1637516376/amacayacu_ko96kf.png",
+        "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2018/04/s09.jpg",
+        "ubicacion" : "Amazonas, Trapecio Amazónico",
+        "temperatura" : "27° C",
+        "sitios" : "Resguardo Indígena de Mocagua, río Amacayacu y quebrada Matamatá"
+    },
+
+    {        
+        "parqueNacional" : "Parque Nacional Natural Sumapaz",
+        "descripcionDetail" : "El Parque Nacional Natural Sumapaz es uno de los sitios de alta montaña más rico en géneros y especies de flora colombiana, ya que posee un gran número de organismos, muchos de ellos endémicos que hacen del Parque un reservorio importante de diversidad biológica, ecológica y genética.\n En el Parque Nacional Natural Sumapaz se encuentran representados dos de los principales ecosistemas de las montañas tropicales: el páramo y los bosques andinos.",
+        "descripcion" : "Es uno de los sitios de alta montaña más rico en géneros y especies de flora colombiana, posee un gran número de organismos endémicos que hacen del Parque un reservorio importante de diversidad biológica, ecológica y genética.",
+        "puntuacion" : 4.5,
+        "foto" : "https://res.cloudinary.com/dlatytwec/image/upload/v1637516376/sumapaz_mvxefl.jpg",
+        "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/07/Sandra_Urrea_s03.jpg",
+        "ubicacion" : "Meta, Huila, Cundinamarca, Bogotá",
+        "temperatura" : "Entre 0 y 20 °C",
+        "sitios" : ""
+    },
+
+    {
+        "parqueNacional" : "Parque Nacional Chingaza",
+        "descripcionDetail" : "El Parque Nacional Natural Chingaza, es un tesoro natural y cultural del centro de Colombia, la magia de sus montañas guarda secretos y pensamientos heredados de  los Muiscas y los Guayupes, pueblos indígenas que resguardaban este territorio, así como de comunidades campesinas que habitaron la región hace menos de 40 años. En la actualidad es refugio de fauna y flora de los Andes que revelan al visitante el secreto de la vida.",
+        "descripcion" : "Para quienes buscan reconstruir vínculos con la naturaleza y aprender sobre conservación, el parque permite a los visitantes un contacto contacto directo con la naturaleza brindando experiencias inolvidables",
+        "puntuacion" : 3.5,
+        "foto" : "https://res.cloudinary.com/dlatytwec/image/upload/v1637516376/chingaza_wj9gru.jpg",
+        "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/08/Laguna_del_medio_AndresMillan.jpg",
+        "ubicacion" : "Cordillera Oriental, departamentos de Cundinamarca y Meta.",
+        "temperatura" : "Entre -5 y 21 °C",
+        "sitios" : "Suasie, Laguna de Chingaza, Lagunas de Siecha, Laguna Seca, Sendero El Rajadero, Laguna del Medio"
+    }
+]
