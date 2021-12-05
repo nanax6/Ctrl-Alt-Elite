@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.parquescolombia.databinding.FragmentListBinding
@@ -12,7 +13,7 @@ import com.example.parquescolombia.main.MainActivity
 import com.example.parquescolombia.model.Parques
 import com.example.parquescolombia.model.ParquesItem
 import com.google.gson.Gson
-
+import kotlinx.android.synthetic.main.card_view_lista_parques.*
 
 
 class ListFragment : Fragment() {
@@ -28,10 +29,12 @@ class ListFragment : Fragment() {
     ): View {
         listBinding = FragmentListBinding.inflate(inflater, container, false)
         return listBinding.root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         (activity as MainActivity?)?.ocultarIcono()
         listaParques = cargaListaJson ()
         parquesAdapter = ParquesAdapter(listaParques, onItemClicked = { onMainActivityClicked (it) })
