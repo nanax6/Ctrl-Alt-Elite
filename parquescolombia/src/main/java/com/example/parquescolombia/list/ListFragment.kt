@@ -5,22 +5,20 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.parquescolombia.databinding.FragmentListBinding
 import com.example.parquescolombia.main.MainActivity
-import com.example.parquescolombia.model.Parques
 import com.example.parquescolombia.model.ParquesItem
-import com.google.gson.Gson
-import kotlinx.android.synthetic.main.card_view_lista_parques.*
 
 
 class ListFragment : Fragment() {
 
     private lateinit var listBinding: FragmentListBinding
+    private lateinit var listViewModel: ListViewModel
     private lateinit var parquesAdapter: ParquesAdapter
-    private lateinit var listaParques: ArrayList<ParquesItem>
+    private var listaParques: ArrayList<ParquesItem> = arrayListOf()
 
 
     override fun onCreateView(
@@ -28,6 +26,8 @@ class ListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         listBinding = FragmentListBinding.inflate(inflater, container, false)
+        listViewModel = ViewModelProvider(this)[ListViewModel::class.java]
+
         return listBinding.root
 
     }
@@ -36,7 +36,12 @@ class ListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         (activity as MainActivity?)?.ocultarIcono()
-        listaParques = cargaListaJson ()
+        listViewModel.cargaListaJson(context?.assets?.open("parques.json"))
+
+        listViewModel.onParquesLoaded.observe(viewLifecycleOwner, {resultado ->
+            onParquesLoadedSubscribe(resultado)
+        })
+
         parquesAdapter = ParquesAdapter(listaParques, onItemClicked = { onMainActivityClicked (it) })
 
         listBinding.listaParquesRecyclerview.apply {
@@ -46,15 +51,18 @@ class ListFragment : Fragment() {
         }
     }
 
+    private fun onParquesLoadedSubscribe(resultado: ArrayList<ParquesItem>?) {
+        resultado?.let { listaParques ->
+            parquesAdapter.agregarItems(listaParques)
+
+        }
+
+    }
+
     private fun onMainActivityClicked(parques: ParquesItem) {
         findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(parque = parques))
 
     }
 
-    private fun cargaListaJson(): ArrayList<ParquesItem> {
-        val parquesString: String = context?.assets?.open("parques.json")?.bufferedReader().use{ it!!.readText() }
-        val gson = Gson()
-        val datos = gson.fromJson(parquesString, Parques::class.java)
-        return datos
-    }
+
 }
