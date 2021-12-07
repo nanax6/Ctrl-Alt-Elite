@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.RatingBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.parquescolombia.R
@@ -38,11 +39,13 @@ class ParquesAdapter(
         private var descripcionTextView: TextView = ItemView.findViewById(R.id.descripcion_textView)
         private var fotoParqueImageView: ImageView =
             ItemView.findViewById(R.id.foto_parque_imageView)
+        private var ratingBar: RatingBar = ItemView.findViewById(R.id.ratingBar)
 
         fun bind(parque: ParquesItem) {
             nombreParqueTextView.text = parque.parqueNacional
             descripcionTextView.text = parque.descripcion
             Picasso.get().load(parque.foto).into(fotoParqueImageView)
+            ratingBar.rating = parque.puntuacion
         }
 
     }
