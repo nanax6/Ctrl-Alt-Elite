@@ -31,6 +31,11 @@ class ParquesAdapter(
 
     override fun getItemCount(): Int = parquesList.size
 
+    fun appendItems(newItems: ArrayList<ParquesItem>) {
+        parquesList.clear()
+        parquesList.addAll(newItems)
+        notifyDataSetChanged()
+    }
 
     class ParquesViewHolder(ItemView: View) : RecyclerView.ViewHolder(ItemView) {
         private var nombreParqueTextView: TextView =
