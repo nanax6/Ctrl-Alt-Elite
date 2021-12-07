@@ -8,7 +8,9 @@
         "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/06/David_Paez.jpg",
         "ubicacion" : "Sierra Nevada de Santa Marta",
         "temperatura" : "Entre 12 y 18° C",
-        "sitios" : "Museo Arqueológico de Chairama, Playa del Muerto, Sector Arrecifes, La Piscina, Cabo San Juan de Guía, Pueblito Chairama, Playa Boca de Saco, Ciudad Perdida."
+        "sitios" : "Museo Arqueológico de Chairama, Playa del Muerto, Sector Arrecifes, La Piscina, Cabo San Juan de Guía, Pueblito Chairama, Playa Boca de Saco, Ciudad Perdida.",
+        "lat" : 11.3064409,
+        "lon" : -74.0701335
     },
 
     {        
@@ -20,7 +22,9 @@
         "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/07/s01-1.jpg",
         "ubicacion" : "Guapi - Departamento del Cauca",
         "temperatura" : "26° C - Promedio",
-        "sitios" : "Islote el viudo, isla Gorgonilla, islote El horno"
+        "sitios" : "Islote el viudo, isla Gorgonilla, islote El horno",
+        "lat" : 2.9810559,
+        "lon" : -78.2235856
     },
 
     {        
@@ -32,7 +36,9 @@
         "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/07/El_Cisne_-_Mario_H_Franco.jpg",
         "ubicacion" : "Caldas, Risaralda, Quindío y Tolima.",
         "temperatura" : "Entre -3° y 14° C",
-        "sitios" : "Nevado del Ruíz, Nevado del Tolima, Nevado de Santa Isabel, Laguna del otún, Laguna negra"
+        "sitios" : "Nevado del Ruíz, Nevado del Tolima, Nevado de Santa Isabel, Laguna del otún, Laguna negra",
+        "lat" : 4.7896956,
+        "lon" : -75.3785533
     },
 
     {        
@@ -44,7 +50,9 @@
         "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2018/04/s09.jpg",
         "ubicacion" : "Amazonas, Trapecio Amazónico",
         "temperatura" : "27° C",
-        "sitios" : "Resguardo Indígena de Mocagua, río Amacayacu y quebrada Matamatá"
+        "sitios" : "Resguardo Indígena de Mocagua, río Amacayacu y quebrada Matamatá",
+        "lat" : -3.424752,
+        "lon" : -70.6818173
     },
 
     {        
@@ -56,7 +64,9 @@
         "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/07/Sandra_Urrea_s03.jpg",
         "ubicacion" : "Meta, Huila, Cundinamarca, Bogotá",
         "temperatura" : "Entre 0 y 20 °C",
-        "sitios" : ""
+        "sitios" : "",
+        "lat" : 4.288955,
+        "lon" : -74.2120507
     },
 
     {
@@ -68,6 +78,8 @@
         "fotoDetail" : "https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2013/08/Laguna_del_medio_AndresMillan.jpg",
         "ubicacion" : "Cordillera Oriental, departamentos de Cundinamarca y Meta.",
         "temperatura" : "Entre -5 y 21 °C",
-        "sitios" : "Suasie, Laguna de Chingaza, Lagunas de Siecha, Laguna Seca, Sendero El Rajadero, Laguna del Medio"
+        "sitios" : "Suasie, Laguna de Chingaza, Lagunas de Siecha, Laguna Seca, Sendero El Rajadero, Laguna del Medio",
+        "lat" : 4.5803502,
+        "lon" : -73.758572
     }
 ]

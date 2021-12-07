@@ -47,7 +47,7 @@ class DetailFragment : Fragment() {
             sitiosContenidoTextView.text = parques.sitios
 
             mapButton.setOnClickListener {
-                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment())
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment(mapArgs = parques))
             }
         }
     }

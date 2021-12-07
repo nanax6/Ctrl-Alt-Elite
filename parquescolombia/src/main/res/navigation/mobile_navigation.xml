@@ -38,5 +38,10 @@
         android:id="@+id/mapsFragment"
         android:name="com.example.parquescolombia.maps.MapsFragment"
         android:label="fragment_maps"
-        tools:layout="@layout/fragment_maps" />
+        tools:layout="@layout/fragment_maps">
+        <argument
+            android:name="mapArgs"
+            app:argType="com.example.parquescolombia.model.ParquesItem" />
+    </fragment>
+
 </navigation>
