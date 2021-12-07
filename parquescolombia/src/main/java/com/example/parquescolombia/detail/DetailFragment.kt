@@ -6,9 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.parquescolombia.R
 import com.example.parquescolombia.databinding.FragmentDetailBinding
+import com.example.parquescolombia.list.ListFragmentDirections
 import com.example.parquescolombia.main.MainActivity
 import com.squareup.picasso.Picasso
 
@@ -43,6 +45,10 @@ class DetailFragment : Fragment() {
             ubicacionContenidoTextView.text = parques.ubicacion
             temperaturaContenidoTextView.text = parques.temperatura
             sitiosContenidoTextView.text = parques.sitios
+
+            mapButton.setOnClickListener {
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment())
+            }
         }
     }
 
