@@ -16,7 +16,6 @@ import com.squareup.picasso.Picasso
 class DetailFragment : Fragment() {
 
     private lateinit var detailBinding: FragmentDetailBinding
-    private val detailViewModel: DetailViewModel by viewModels()
     private val args: DetailFragmentArgs by navArgs()
 
     override fun onCreate(savedInstanceState: Bundle?) {
