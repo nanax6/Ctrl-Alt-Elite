@@ -1,4 +1,4 @@
-package com.example.parquescolombia.maps
+package com.example.parquescolombia.ui.maps
 
 import androidx.fragment.app.Fragment
 

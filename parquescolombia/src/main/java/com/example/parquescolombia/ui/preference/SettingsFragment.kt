@@ -1,11 +1,11 @@
-package com.example.parquescolombia.preference
+package com.example.parquescolombia.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.example.parquescolombia.R
-import com.example.parquescolombia.main.MainActivity
+import com.example.parquescolombia.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

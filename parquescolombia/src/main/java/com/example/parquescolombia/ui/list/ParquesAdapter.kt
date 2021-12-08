@@ -1,4 +1,4 @@
-package com.example.parquescolombia.list
+package com.example.parquescolombia.ui.list
 
 import android.view.LayoutInflater
 import android.view.View

@@ -1,4 +1,4 @@
-package com.example.parquescolombia.list
+package com.example.parquescolombia.ui.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,7 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.parquescolombia.databinding.FragmentListBinding
-import com.example.parquescolombia.main.MainActivity
+import com.example.parquescolombia.ui.main.MainActivity
 import com.example.parquescolombia.model.ParquesItem
 
 
@@ -34,7 +34,9 @@ class ListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.ocultarIcono()
 
-        listViewModel.cargaListaJson(context?.assets?.open("parques.json")?.bufferedReader().use{ it!!.readText() })
+//        listViewModel.cargaListaJson(context?.assets?.open("parques.json")?.bufferedReader().use{ it!!.readText() })
+
+        listViewModel.getParksFromServer()
 
         listViewModel.onParquesLoaded.observe(viewLifecycleOwner, { result ->
             onParquesLoadedSubscriber(result)
