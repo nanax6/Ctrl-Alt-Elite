@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.parquescolombia.R
 import com.example.parquescolombia.databinding.FragmentDetailBinding
@@ -43,6 +44,15 @@ class DetailFragment : Fragment() {
             ubicacionContenidoTextView.text = parques.ubicacion
             temperaturaContenidoTextView.text = parques.temperatura
             sitiosContenidoTextView.text = parques.sitios
+
+            mapsButton.setOnClickListener {
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment())
+
+            }
+
+
+
+
         }
     }
 
