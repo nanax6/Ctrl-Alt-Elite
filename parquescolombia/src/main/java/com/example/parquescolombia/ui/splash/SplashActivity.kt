@@ -1,4 +1,4 @@
-package com.example.parquescolombia.splash
+package com.example.parquescolombia.ui.splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.animation.AnimationUtils
 import com.example.parquescolombia.R
-import com.example.parquescolombia.main.MainActivity
+import com.example.parquescolombia.ui.main.MainActivity
 import kotlinx.android.synthetic.main.activity_splash.*
 
 class SplashActivity : AppCompatActivity() {
