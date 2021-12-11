@@ -44,13 +44,14 @@ class ParquesAdapter(
         private var descripcionTextView: TextView = ItemView.findViewById(R.id.descripcion_textView)
         private var fotoParqueImageView: ImageView =
             ItemView.findViewById(R.id.foto_parque_imageView)
-        private var ratingBar: RatingBar = ItemView.findViewById(R.id.ratingBar)
+        private var calificacionTextView: TextView =
+            ItemView.findViewById(R.id.calificacion_textView)
 
         fun bind(parque: ParquesItem) {
             nombreParqueTextView.text = parque.parqueNacional
             descripcionTextView.text = parque.descripcion
             Picasso.get().load(parque.foto).into(fotoParqueImageView)
-            ratingBar.rating = parque.puntuacion
+            calificacionTextView.text = parque.puntuacion.toString()
         }
 
     }
