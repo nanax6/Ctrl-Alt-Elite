@@ -8,26 +8,25 @@ import android.view.animation.AnimationUtils
 import com.example.parquescolombia.R
 import com.example.parquescolombia.ui.main.MainActivity
 import kotlinx.android.synthetic.main.activity_splash.*
+import kotlinx.android.synthetic.main.activity_splash2.*
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
+        setContentView(R.layout.activity_splash2)
 
         val splashScreen = AnimationUtils.loadAnimation(this, R.anim.splash_fadein)
-        imageViewTeamLogo.startAnimation(splashScreen)
-        logo_splash_imageView.startAnimation(splashScreen)
-        textViewBy.startAnimation(splashScreen)
+        mainTitle.startAnimation(splashScreen)
 
         @Suppress("DEPRECATION")
         Handler().postDelayed(
             {
                 startActivity(
-                    Intent(this@SplashActivity,
-                        SplashActivity2::class.java)
+                    Intent(this@SplashActivity2,
+                        MainActivity::class.java)
                 )
                 finish()
-            }, 3000
+            }, 4000
         )
 
     }
