@@ -1,25 +1,24 @@
-package com.example.parquescolombia.list
+package com.example.parquescolombia.ui.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.parquescolombia.databinding.FragmentListBinding
-import com.example.parquescolombia.main.MainActivity
-import com.example.parquescolombia.model.Parques
+import com.example.parquescolombia.ui.main.MainActivity
 import com.example.parquescolombia.model.ParquesItem
-import com.google.gson.Gson
-
 
 
 class ListFragment : Fragment() {
 
     private lateinit var listBinding: FragmentListBinding
+    private val listViewModel:ListViewModel by viewModels()
     private lateinit var parquesAdapter: ParquesAdapter
-    private lateinit var listaParques: ArrayList<ParquesItem>
+    private var listaParques: ArrayList<ParquesItem> = arrayListOf()
 
 
     override fun onCreateView(
@@ -27,13 +26,22 @@ class ListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         listBinding = FragmentListBinding.inflate(inflater, container, false)
+
         return listBinding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.ocultarIcono()
-        listaParques = cargaListaJson ()
+
+//        listViewModel.cargaListaJson(context?.assets?.open("parques.json")?.bufferedReader().use{ it!!.readText() })
+
+        listViewModel.getParksFromServer()
+
+        listViewModel.onParquesLoaded.observe(viewLifecycleOwner, { result ->
+            onParquesLoadedSubscriber(result)
+        })
+
         parquesAdapter = ParquesAdapter(listaParques, onItemClicked = { onMainActivityClicked (it) })
 
         listBinding.listaParquesRecyclerview.apply {
@@ -43,15 +51,13 @@ class ListFragment : Fragment() {
         }
     }
 
-    private fun onMainActivityClicked(parques: ParquesItem) {
-        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(parque = parques))
-
+    private fun onParquesLoadedSubscriber(result: ArrayList<ParquesItem>?) {
+        result?.let{ listaParques ->
+            parquesAdapter.appendItems(listaParques)
+        }
     }
 
-    private fun cargaListaJson(): ArrayList<ParquesItem> {
-        val parquesString: String = context?.assets?.open("parques.json")?.bufferedReader().use{ it!!.readText() }
-        val gson = Gson()
-        val datos = gson.fromJson(parquesString, Parques::class.java)
-        return datos
+    private fun onMainActivityClicked(parques: ParquesItem) {
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(parque = parques))
     }
 }

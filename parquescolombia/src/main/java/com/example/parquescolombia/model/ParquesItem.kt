@@ -22,6 +22,10 @@ data class ParquesItem(
     @SerializedName("temperatura")
     val temperatura: String,
     @SerializedName("sitios")
-    val sitios: String
+    val sitios: String,
+    @SerializedName("lat")
+    val lat: Double,
+    @SerializedName("lon")
+    val lon: Double
 
 ):  Serializable
