@@ -1,13 +1,13 @@
-package com.example.parquescolombia.detail
+package com.example.parquescolombia.ui.detail
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.parquescolombia.R
 import com.example.parquescolombia.databinding.FragmentDetailBinding
-import com.example.parquescolombia.main.MainActivity
+import com.example.parquescolombia.ui.main.MainActivity
 import com.squareup.picasso.Picasso
 
 
@@ -41,6 +41,10 @@ class DetailFragment : Fragment() {
             ubicacionContenidoTextView.text = parques.ubicacion
             temperaturaContenidoTextView.text = parques.temperatura
             sitiosContenidoTextView.text = parques.sitios
+
+            mapButton.setOnClickListener {
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment(mapArgs = parques))
+            }
         }
     }
 
