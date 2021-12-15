@@ -25,13 +25,11 @@
 
             <ImageView
                 android:id="@+id/foto_parque_imageView"
-                android:layout_width="200dp"
+                android:layout_width="0dp"
                 android:layout_height="160dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="16dp"
                 android:scaleType="fitXY"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/chiribiquete"
@@ -40,64 +38,62 @@
             <TextView
                 android:id="@+id/nombre_parque_textView"
                 style="@style/Texto_titulo"
-                android:layout_width="200dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginEnd="16dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/granite"
                 android:text="@string/chiribiquete"
                 android:textAlignment="center"
+                android:textColor="#616161"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toEndOf="@+id/foto_parque_imageView"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/foto_parque_imageView" />
 
             <TextView
                 android:id="@+id/descripcion_textView"
                 style="@style/Texto_descripcion"
-                android:layout_width="215dp"
-                android:layout_height="120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="99dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/chiribiquete_descripcion"
                 android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/foto_parque_imageView"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/nombre_parque_textView" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/calificacion_textView"
                 style="@style/Texto_puntuacion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:text="@string/puntuacion"
                 android:textAlignment="textEnd"
-                app:layout_constraintBottom_toTopOf="@+id/ratingBar"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/foto_parque_imageView"
-                app:layout_constraintTop_toBottomOf="@+id/descripcion_textView" />
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/foto_parque_imageView"
+                app:layout_constraintEnd_toEndOf="parent" />
 
-            <RatingBar
-                android:id="@+id/ratingBar"
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="4dp"
-                android:layout_marginEnd="8dp"
-                android:numStars="5"
-                android:progressDrawable="@drawable/ic_custom_ratingbar"
-                android:rating="3"
-                android:stepSize="0.5"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.965"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/foto_parque_imageView"
-                tools:ignore="SpeakableTextPresentCheck" />
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="21dp"
+                android:layout_height="19dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/foto_parque_imageView"
+                app:layout_constraintEnd_toStartOf="@+id/calificacion_textView"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

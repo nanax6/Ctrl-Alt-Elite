@@ -45,6 +45,10 @@
             android:name=".ui.main.MainActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".ui.splash.SplashActivity2"
+            android:theme="@style/Theme.NaturalColombiApp.NoActionBar"/>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
