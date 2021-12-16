@@ -32,6 +32,7 @@
     <string name="Configuración">Configuración</string>
     <string name="splash_nombre_app">Natural <br>ColombiApp</br> </string>
     <string name="splash_nombre_equipo">Ctrl - Alt - Elite</string>
+    <string name="calificacion_detail">Califica este parque.</string>
     <!-- Checkbox Preferences -->
 
 

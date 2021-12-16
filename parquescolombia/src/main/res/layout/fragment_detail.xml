@@ -143,6 +143,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
+        <TextView
+            android:id="@+id/textViewMap"
+            style="@style/Texto_subtitulo_valor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="124dp"
+            android:text="Ver en Google Maps"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/mapButton" />
+
         <ImageButton
             android:id="@+id/mapButton"
             android:layout_width="wrap_content"
@@ -153,18 +164,43 @@
             android:src="@drawable/maps"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/sitios_contenido_textView" />
+            app:layout_constraintTop_toBottomOf="@+id/sitios_contenido_textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@android:style/Widget.Material.RatingBar"
+            android:layout_width="242dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:numStars="5"
+            android:progressTint="@color/teal_200"
+            android:scrollbarSize="4dp"
+            android:scrollbarStyle="outsideInset"
+            android:stepSize="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mapButton" />
 
         <TextView
-            android:id="@+id/textViewMap"
-            style="@style/Texto_subtitulo_valor"
+            android:id="@+id/califica_textView"
+            style="@style/Texto_subtitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="40dp"
-            android:text="Ver en Google Maps"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/mapButton" />
+            android:fontFamily="@font/almendra_bold"
+            android:text="@string/calificacion_detail"
+            app:layout_constraintBottom_toTopOf="@+id/ratingBar"
+            app:layout_constraintEnd_toStartOf="@+id/textViewMap"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMap"
+            app:layout_constraintVertical_bias="0.81" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
