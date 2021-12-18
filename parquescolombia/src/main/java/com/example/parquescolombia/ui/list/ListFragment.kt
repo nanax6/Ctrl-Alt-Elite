@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -60,4 +61,5 @@ class ListFragment : Fragment() {
     private fun onMainActivityClicked(parques: ParquesItem) {
         findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(parque = parques))
     }
+
 }
